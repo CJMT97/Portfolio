@@ -1,11 +1,8 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+import Header from "./assets/header";
 
-function App() {
-
+export default function App() {
   return (
-    <div></div>
-  )
+    
+  );
 }
-
-export default App
