@@ -1,13 +1,13 @@
-import "../header.css";
-import headshot from "../images/wallpaper.jpg";
+import "./header.css";
 
 function Header() {
   return (
     <>
       <header>
-        <h1>Charlie Templeton</h1>
+        <div></div>
+        <h1 className="typing">Charlie Templeton</h1>
+        <div></div>
       </header>
-      <img src={headshot} alt="headshot"></img>
     </>
   );
 }
